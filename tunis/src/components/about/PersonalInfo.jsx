@@ -7,7 +7,7 @@ const personalInfoContent = [
   { meta: "Nationality", metaInfo: "Indian" },
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "Address", metaInfo: "Irving" },
-  { meta: "phone", metaInfo: "+21621184010" },
+  { meta: "phone", metaInfo: "+1 8702309695" },
   { meta: "Email", metaInfo: "suryatheja148@gmail.com" },
   { meta: "langages", metaInfo: "English, Hindi, Telugu" },
 ];
