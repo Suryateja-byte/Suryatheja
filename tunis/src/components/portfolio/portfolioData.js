@@ -13,9 +13,10 @@ const PortfolioData = [
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Internal Tools Web Application",
-        client: "ATD",
-        language: "HTML, CSS, React.js, Angular",
+        project: "Online Application",
+        client: "Applied Systems, Inc.",
+        language:
+          "Java, Spring MVC, Spring Boot, Hibernate, RESTful Web Services",
       },
     ],
   },
@@ -27,9 +28,9 @@ const PortfolioData = [
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Customer Portal Enhancement",
-        client: "ATD",
-        language: "HTML, CSS, React.js, Angular",
+        project: "GUI for User Interfaces",
+        client: "Apex Systems",
+        language: "JSP, JavaScript, AJAX, XML, HTML, CSS",
       },
     ],
   },
@@ -41,9 +42,9 @@ const PortfolioData = [
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "E-commerce Web Application",
-        client: "CSS Corp",
-        language: "HTML, CSS, Angular, React.js",
+        project: "User Login System",
+        client: "Deloitte",
+        language: "Spring MVC, Hibernate, XML, HTML, CSS",
       },
     ],
   },

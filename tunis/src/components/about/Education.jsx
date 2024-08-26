@@ -2,22 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2022 - 2024",
+    year: "2012 - 2014",
     degree: "Master of Science in Computer Science",
-    institute: "Southern Arkansas University",
-    details: `Focused on advanced topics in computer science, including web development and data science.`,
+    institute: "Southern Arkansas University, Magnolia, AR",
+    details: `Focused on advanced topics in computer science, including Advanced Algorithms, Data Structures, Database Systems, and Software Engineering.`,
   },
   {
-    year: "2017 - 2021",
-    degree: "Bachelor of Science in Chemical Engineering",
-    institute: "Osmania University",
-    details: `Studied fundamental and advanced topics in chemical engineering, including an internship during the final year.`,
-  },
-  {
-    year: "2014 - 2017",
-    degree: "High School Diploma",
-    institute: "Jawaharlal Nehru Government Polytechnic",
-    details: `Graduated from high school with a focus on science and mathematics.`,
+    year: "2006 - 2010",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    institute: "Osmania University, Hyderabad, India",
+    details: `Studied fundamental and advanced topics in computer science and engineering, including Object-Oriented Programming, Data Structures, Operating Systems, and Database Systems.`,
   },
 ];
 
