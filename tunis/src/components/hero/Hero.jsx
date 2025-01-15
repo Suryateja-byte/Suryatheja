@@ -6,16 +6,17 @@ import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: heroImg, // Make sure to define or import `heroImg`
-  heroMobileImage: heroImgMobile, // Make sure to define or import `heroImgMobile`
+  heroImage: heroImg,
+  heroMobileImage: heroImgMobile,
   heroTitleName: "Surya Theja",
-  heroDesignation: "Full Stack Developer",
-  heroDescriptions: `I'm a web designer & front‑end developer focused on crafting clean & user‑friendly experiences. I am passionate about building excellent software that improves the lives of those around me.`,
+  heroDesignation: "Android Developer",
+  heroDescriptions: `I'm a seasoned Android Developer with over 5 years of experience in designing, developing, and launching high-quality mobile applications. Passionate about building robust and scalable software solutions that enhance user experiences.`,
   heroBtn: "more about me",
 };
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }
@@ -26,12 +27,10 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
+            backgroundImage: `url(${heroContent.heroImage})`,
           }}
         ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+        <div className="col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start">
           <div>
             <img
               src={heroContent.heroMobileImage}
@@ -50,7 +49,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* End home-details-container */}
 
       {/* Start Modal for About More */}
       <Modal
@@ -65,7 +63,6 @@ const Hero = () => {
           <button className="close-modal" onClick={toggleModalOne}>
             <img src={cancelImg} alt="close icon" />
           </button>
-          {/* End close icon */}
 
           <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
@@ -75,14 +72,11 @@ const Hero = () => {
                 </h1>
                 <span className="title-bg">Resume</span>
               </div>
-              {/* End title */}
               <Index />
             </div>
           </div>
         </div>
-        {/* End modal box news */}
       </Modal>
-      {/* End  Modal for About More */}
     </>
   );
 };

@@ -11,98 +11,98 @@ const AllBlogData = () => {
     {
       id: 1,
       img: img1,
-      title: "How to Own Your Audience by Creating an Email List",
-      commentor: "Rio ",
-      date: "21 April 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "Building Scalable Android Applications with Kotlin",
+      commentor: "Surya Theja",
+      date: "10 January 2023",
+      tag: `Kotlin, Android, Mobile Development, Jetpack Compose`,
       description1:
-        "Tomfoolery crikey bits and bobs brilliant bamboozled down the pub amongst brolly hanky panky, cack bonnet arse over tit burke bugger all mate bodge. cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucibu nisl. Lacus vel facilisis volutpat est velit egestas.",
+        "Kotlin has emerged as one of the most powerful languages for Android development. Discover the best practices for building scalable and efficient Android applications using Jetpack Compose.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "The transition to Jetpack Compose marks a significant evolution in Android UI development. It allows developers to build UIs declaratively, making the process more intuitive and less error-prone.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Adopting modern libraries and frameworks like Jetpack Compose ensures applications are future-proof and maintainable.",
       description4:
-        "Riosum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Scalable architectures, efficient database interactions with Room, and leveraging Kotlin's coroutines for concurrency are crucial for Android developers today.",
     },
     {
       id: 2,
       img: img2,
-      title: "Top 10 Toolkits for Deep Learning in 2022",
-      commentor: "Santhan ",
-      date: "14 January 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "Integrating RESTful APIs into Android Applications",
+      commentor: "Surya Theja",
+      date: "15 March 2023",
+      tag: `API, Android Development, Kotlin, RESTful APIs`,
       description1:
-        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "RESTful APIs are a cornerstone of modern Android applications. Learn how to efficiently integrate APIs to deliver real-time features to your users.",
       description2:
-        "If you’ve been waiting for an invitation, this calligraphy is it. Commissioned by Notebook hand-lettered design for a poster. Quote is Notebook Building 8 VP’s Regina Dugan—and mine. ",
+        "Tools like Retrofit make API integration seamless and reduce the boilerplate code significantly, enabling faster development cycles.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Best practices for error handling, caching, and performance optimization ensure a smooth user experience.",
       description4:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Ensure secure API communication using HTTPS and OAuth 2.0, and optimize data fetching to save bandwidth and battery life.",
     },
     {
       id: 3,
       img: img3,
-      title: "Everything You Need to Know About Web Accessibility",
-      commentor: "steve ",
-      date: "9 January 2020",
-      tag: `wordpress, business, economy, design`,
+      title: "Understanding Multi-Threading in Android",
+      commentor: "Surya Theja",
+      date: "20 June 2023",
+      tag: `Kotlin, Multithreading, Android SDK`,
       description1:
-        "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Learn how to manage concurrency effectively in Android applications using Kotlin's coroutines and structured concurrency.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "Discover common pitfalls in multithreaded programming and how to avoid them to build responsive and crash-free apps.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Efficient multithreading ensures applications remain smooth and responsive, even during intensive operations.",
       description4:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Understand how to use tools like WorkManager and Executors to handle background tasks efficiently.",
     },
     {
       id: 4,
       img: img4,
-      title: "How to Inject Humor & Comedy Into Your Brand",
-      commentor: "Beker ",
-      date: "15 March 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "Optimizing Android Applications for Performance",
+      commentor: "Surya Theja",
+      date: "5 September 2023",
+      tag: `Performance, Android, Optimization`,
       description1:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucibu nisl. Lacus vel facilisis volutpat est velit egestas",
+        "Performance optimization is critical for maintaining a high-quality user experience. Learn how to identify and resolve bottlenecks in Android applications.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "Tools like Android Profiler help developers gain insights into memory usage, CPU utilization, and network activity.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Leverage Kotlin's immutability and scoped functions to write efficient, maintainable code.",
       description4:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Optimize image loading and caching with libraries like Glide or Coil to improve app performance on resource-constrained devices.",
     },
     {
       id: 5,
       img: img5,
-      title: "Women in Web Design: How To Achieve Success",
-      commentor: "Janntul ",
-      date: "9 January 2021",
-      tag: `wordpress, business, economy, design`,
+      title: "Creating Beautiful UI with Material Design",
+      commentor: "Surya Theja",
+      date: "1 December 2023",
+      tag: `UI Design, Android, Material Design`,
       description1:
-        "Jorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Material Design principles provide a consistent user experience across applications. Explore how to implement these principles effectively in Android applications.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "Learn about advanced UI components and how to customize them to meet unique user needs.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Adopting Material Design ensures your application looks modern and is aligned with Google's design philosophy.",
       description4:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Responsive and adaptive UIs play a significant role in enhancing usability across different devices and screen sizes.",
     },
     {
       id: 6,
       img: img6,
-      title: "Evergreen versus topical content: An overview",
-      commentor: "Hasan ",
-      date: "9 January 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "Unit Testing Android Applications",
+      commentor: "Surya Theja",
+      date: "20 December 2023",
+      tag: `Testing, Android, JUnit`,
       description1:
-        "Still ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Unit testing ensures application logic remains robust and error-free. Learn how to write and execute effective unit tests in Android.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "Explore libraries like JUnit and Mockito for comprehensive testing coverage.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Writing testable code from the start ensures a smoother development process and easier maintenance.",
       description4:
-        "Still ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Automated tests help detect issues early, reducing the time and cost of debugging.",
     },
   ];
 
