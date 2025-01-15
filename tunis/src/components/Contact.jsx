@@ -29,7 +29,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
-          toast.error("Ops Message Not Sent!", {
+          toast.error("Oops, Message Not Sent!", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -48,7 +48,12 @@ const Contact = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <input type="text" name="name" placeholder="YOUR NAME" required />
+              <input
+                type="text"
+                name="from_name"
+                placeholder="YOUR NAME"
+                required
+              />
             </div>
           </div>
           {/* End .col */}
