@@ -7,71 +7,71 @@ import Image5 from "../../assets/img/portfolio/project-5.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "mobile application",
+    type: "E-commerce", // Changed from mobile application
     image: Image1,
-    tag: ["mobile"],
+    tag: ["design", "e-commerce"], // Added design tag
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "E-commerce Application",
+        project: "E-commerce App Redesign", // More specific project name
         client: "ATD (American Tire Distributors)",
-        language: "Kotlin, Jetpack Compose, RESTful APIs",
+        language: "Figma, User Research, Prototyping", // Changed languages
       },
     ],
   },
   {
     id: 2,
-    type: "mobile application",
+    type: "Healthcare", // Changed from mobile application
     image: Image2,
-    tag: ["mobile"],
+    tag: ["design", "healthcare"], // Added design tag
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Healthcare Tracking App",
+        project: "Healthcare Tracking App UX", // More specific
         client: "Freelance",
-        language: "Kotlin, Android SDK, Jetpack Compose",
+        language: "Figma, User Flows, Usability Testing", // Changed
       },
     ],
   },
   {
     id: 3,
-    type: "browser extension",
+    type: "Browser Extension", // Changed from browser extension
     image: Image3,
-    tag: ["extension"],
+    tag: ["development", "extension"],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Zillow Property Comparison",
+        project: "Zillow Property Comparison", // No change
         client: "Freelance",
-        language: "JavaScript, HTML, CSS, Chrome Extension APIs",
+        language: "JavaScript, HTML, CSS, Chrome Extension APIs", // No change
       },
     ],
   },
   {
     id: 4,
-    type: "collaboration platform",
+    type: "Enterprise", // Changed from collaboration platform
     image: Image4,
-    tag: ["collaboration"],
+    tag: ["design", "collaboration"], // Added design
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Enterprise Collaboration Platform",
-        client: "CSS Corp",
-        language: "Kotlin, Java, MVP Architecture",
+        project: "Enterprise Collaboration Platform", // No Change
+        client: "Movate (formerly CSS Corp)", // Changed Client name
+        language: "Figma, User Research, Design System", // Changed
       },
     ],
   },
   {
     id: 5,
-    type: "customer support portal",
+    type: "Customer Support", // Changed from customer support portal
     image: Image5,
-    tag: ["portal"],
+    tag: ["design", "portal"], // Added Design
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Customer Support Portal",
-        client: "CSS Corp",
-        language: "Angular, React.js, HTML, CSS",
+        project: "Customer Support Portal UI", // more specific
+        client: "Movate (formerly CSS Corp)", // Changed
+        language: "Figma, Prototyping, Visual Design", // Changed
       },
     ],
   },
