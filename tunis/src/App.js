@@ -5,6 +5,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
+import heroImg from "./assets/img/hero/dark.jpg";
+import heroImgMobile from "./assets/img/hero/img-mobile.jpg";
+
+// Define heroContent here, outside the App component
+const heroContent = {
+  heroImage: heroImg,
+  heroMobileImage: heroImgMobile,
+  heroTitleName: "Surya Theja",
+  heroDesignation: "UI/UX Designer",
+  heroDescriptions: `I'm a passionate UI/UX Designer with 5+ years of experience crafting intuitive and user-centered digital experiences. I specialize in creating visually appealing interfaces that enhance user engagement and satisfaction.`,
+  heroBtn: "more about me",
+};
 
 const App = () => {
   // this for animation
@@ -25,7 +37,7 @@ const App = () => {
         outerScale={1.2}
       />
       <ScrollToTop />
-      <AllRoutes />
+      <AllRoutes heroContent={heroContent} /> {/* Pass heroContent as a prop */}
       {/* End contact */}
       <ToastContainer />
       {/* Same as */}
