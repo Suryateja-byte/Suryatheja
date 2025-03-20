@@ -11,98 +11,98 @@ const AllBlogData = () => {
     {
       id: 1,
       img: img1,
-      title: "Building Scalable Android Applications with Kotlin",
+      title: "Mastering UI/UX Design Principles",
       commentor: "Surya Theja",
-      date: "10 January 2023",
-      tag: `Kotlin, Android, Mobile Development, Jetpack Compose`,
+      date: "10 January 2024",
+      tag: `UI Design, UX Design, User-Centered Design, Design Principles`,
       description1:
-        "Kotlin has emerged as one of the most powerful languages for Android development. Discover the best practices for building scalable and efficient Android applications using Jetpack Compose.",
+        "Explore the fundamental principles of UI/UX design and how they contribute to creating exceptional digital experiences. Learn how to apply these principles to build user-friendly and visually appealing interfaces.",
       description2:
-        "The transition to Jetpack Compose marks a significant evolution in Android UI development. It allows developers to build UIs declaratively, making the process more intuitive and less error-prone.",
+        "User-centered design is at the heart of effective UI/UX. Understand how to conduct user research, create user personas, and develop empathy maps to inform your design decisions.",
       description3:
-        "Adopting modern libraries and frameworks like Jetpack Compose ensures applications are future-proof and maintainable.",
+        "Information architecture plays a crucial role in organizing content and ensuring seamless navigation. Discover techniques for creating intuitive sitemaps and user flows.",
       description4:
-        "Scalable architectures, efficient database interactions with Room, and leveraging Kotlin's coroutines for concurrency are crucial for Android developers today.",
+        "Visual hierarchy, typography, and color theory are essential elements of UI design. Master these concepts to create visually stunning and engaging interfaces.",
     },
     {
       id: 2,
       img: img2,
-      title: "Integrating RESTful APIs into Android Applications",
+      title: "The Art of Prototyping and Wireframing",
       commentor: "Surya Theja",
-      date: "15 March 2023",
-      tag: `API, Android Development, Kotlin, RESTful APIs`,
+      date: "15 March 2024",
+      tag: `Prototyping, Wireframing, UX Design, Design Process`,
       description1:
-        "RESTful APIs are a cornerstone of modern Android applications. Learn how to efficiently integrate APIs to deliver real-time features to your users.",
+        "Prototyping and wireframing are essential steps in the design process. Learn how to create effective prototypes and wireframes to visualize and test your design ideas.",
       description2:
-        "Tools like Retrofit make API integration seamless and reduce the boilerplate code significantly, enabling faster development cycles.",
+        "Explore different prototyping methods, from low-fidelity paper prototypes to high-fidelity interactive prototypes, and choose the right approach for your project.",
       description3:
-        "Best practices for error handling, caching, and performance optimization ensure a smooth user experience.",
+        "Wireframing tools and techniques can help you quickly create and iterate on your designs. Discover best practices for creating clear and concise wireframes.",
       description4:
-        "Ensure secure API communication using HTTPS and OAuth 2.0, and optimize data fetching to save bandwidth and battery life.",
+        "User testing is crucial for validating your prototypes and wireframes. Learn how to conduct user testing sessions and gather valuable feedback to improve your designs.",
     },
     {
       id: 3,
       img: img3,
-      title: "Understanding Multi-Threading in Android",
+      title: "Mastering Figma for UI/UX Design",
       commentor: "Surya Theja",
-      date: "20 June 2023",
-      tag: `Kotlin, Multithreading, Android SDK`,
+      date: "20 June 2024",
+      tag: `Figma, UI Design, UX Design, Design Tools`,
       description1:
-        "Learn how to manage concurrency effectively in Android applications using Kotlin's coroutines and structured concurrency.",
+        "Figma has become a leading design tool for UI/UX designers. Learn how to leverage its powerful features to create stunning and interactive designs.",
       description2:
-        "Discover common pitfalls in multithreaded programming and how to avoid them to build responsive and crash-free apps.",
+        "Explore Figma's collaborative capabilities and how they can streamline your design workflow and facilitate teamwork.",
       description3:
-        "Efficient multithreading ensures applications remain smooth and responsive, even during intensive operations.",
+        "Master Figma's advanced features, such as components, styles, and auto layout, to create scalable and maintainable design systems.",
       description4:
-        "Understand how to use tools like WorkManager and Executors to handle background tasks efficiently.",
+        "Learn how to use Figma's prototyping tools to create interactive prototypes and test user flows.",
     },
     {
       id: 4,
       img: img4,
-      title: "Optimizing Android Applications for Performance",
+      title: "Effective User Research Methods",
       commentor: "Surya Theja",
-      date: "5 September 2023",
-      tag: `Performance, Android, Optimization`,
+      date: "5 September 2024",
+      tag: `User Research, UX Design, Research Methods, User Insights`,
       description1:
-        "Performance optimization is critical for maintaining a high-quality user experience. Learn how to identify and resolve bottlenecks in Android applications.",
+        "User research is fundamental to user-centered design. Explore various user research methods and learn how to choose the right methods for your project.",
       description2:
-        "Tools like Android Profiler help developers gain insights into memory usage, CPU utilization, and network activity.",
+        "Learn how to conduct user interviews, surveys, and usability testing sessions to gather valuable user insights.",
       description3:
-        "Leverage Kotlin's immutability and scoped functions to write efficient, maintainable code.",
+        "Discover techniques for analyzing user data and synthesizing your findings into actionable design recommendations.",
       description4:
-        "Optimize image loading and caching with libraries like Glide or Coil to improve app performance on resource-constrained devices.",
+        "Understand how to create user personas and empathy maps to communicate user needs and goals to stakeholders.",
     },
     {
       id: 5,
       img: img5,
-      title: "Creating Beautiful UI with Material Design",
+      title: "Creating and Maintaining Design Systems",
       commentor: "Surya Theja",
-      date: "1 December 2023",
-      tag: `UI Design, Android, Material Design`,
+      date: "1 December 2024",
+      tag: `Design Systems, UI Design, Design Management, Consistency`,
       description1:
-        "Material Design principles provide a consistent user experience across applications. Explore how to implement these principles effectively in Android applications.",
+        "Design systems are essential for creating consistent and scalable designs. Learn how to build and maintain effective design systems.",
       description2:
-        "Learn about advanced UI components and how to customize them to meet unique user needs.",
+        "Explore the key components of a design system, such as style guides, component libraries, and design principles.",
       description3:
-        "Adopting Material Design ensures your application looks modern and is aligned with Google's design philosophy.",
+        "Discover best practices for documenting and communicating your design system to ensure adoption and consistency across your organization.",
       description4:
-        "Responsive and adaptive UIs play a significant role in enhancing usability across different devices and screen sizes.",
+        "Learn how to use tools like Figma to create and manage your design system efficiently.",
     },
     {
       id: 6,
       img: img6,
-      title: "Unit Testing Android Applications",
+      title: "Designing for Accessibility in UI/UX",
       commentor: "Surya Theja",
-      date: "20 December 2023",
-      tag: `Testing, Android, JUnit`,
+      date: "20 December 2024",
+      tag: `Accessibility, UI/UX Design, Inclusive Design, Web Accessibility`,
       description1:
-        "Unit testing ensures application logic remains robust and error-free. Learn how to write and execute effective unit tests in Android.",
+        "Accessibility is a critical aspect of UI/UX design. Learn how to design inclusive experiences that are accessible to users with disabilities.",
       description2:
-        "Explore libraries like JUnit and Mockito for comprehensive testing coverage.",
+        "Understand the Web Content Accessibility Guidelines (WCAG) and how to apply them to your designs.",
       description3:
-        "Writing testable code from the start ensures a smoother development process and easier maintenance.",
+        "Explore assistive technologies and how users with disabilities interact with digital interfaces.",
       description4:
-        "Automated tests help detect issues early, reducing the time and cost of debugging.",
+        "Learn how to conduct accessibility audits and usability testing with users with disabilities to ensure your designs are truly inclusive.",
     },
   ];
 
