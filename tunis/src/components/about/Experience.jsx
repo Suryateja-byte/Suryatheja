@@ -2,22 +2,22 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "June 2023 - Present",
-    position: "Senior Android Developer",
+    year: "June 2024 - Present", // Changed to 2024
+    position: "Senior UI/UX Designer", // Changed position
     companyName: "ATD (American Tire Distributor)",
-    details: `Led the design and development of Android applications using Kotlin, Java, and Jetpack Compose. Managed the full software development lifecycle, from concept to release, ensuring quality and reliability. Integrated RESTful APIs and external libraries to enhance application functionality. Applied MVP and MVVM architecture patterns to ensure modular and maintainable code. Conducted unit testing and debugging to identify and resolve performance issues. Collaborated with Agile teams to deliver applications on time, meeting quality standards. Ensured compliance with Android accessibility features and best practices.`,
+    details: `Redesigned e-commerce app interface, resulting in a 35% increase in user engagement and 28% higher conversion rates. Conducted comprehensive user research, identifying pain points and implementing solutions that improved user satisfaction scores by 45%. Developed and maintained a cohesive design system, ensuring visual consistency across all digital touchpoints. Collaborated with product managers and developers to deliver intuitive interfaces, reducing the user learning curve by 50%.`, // Updated details
   },
   {
-    year: "June 2019 - June 2022",
-    position: "Mobile Application Developer",
-    companyName: "CSS Corp ICT Services",
-    details: `Designed and developed Android applications using Kotlin and the Android SDK, adhering to Material Design principles. Built and shipped user interfaces with Jetpack Compose, enhancing user experience. Conducted multi-threaded programming using Kotlin Coroutines for improved app performance. Implemented CircleCI for continuous integration and deployment. Developed and maintained unit tests to ensure robust application functionality. Worked closely with cross-functional teams to deliver high-quality applications that met client requirements.`,
+    year: "May 2019 - May 2022", // Changed Month
+    position: "UI/UX Designer", // changed position
+    companyName: "CSS Corp (now Movate)", // Added now Movate
+    details: `Spearheaded the UX redesign of a B2B e-commerce platform, improving user task completion rates by 60%. Designed wireframes, mockups, and interactive prototypes to effectively communicate design concepts to stakeholders. Implemented user-centered design principles, reducing customer support inquiries by 40%. Created responsive designs, ensuring a seamless experience across desktop, tablet, and mobile devices.`, // Updated details
   },
   {
-    year: "January 2020 - December 2021",
-    position: "Freelance Developer",
-    companyName: "Zillow Extension Project",
-    details: `Created a Chrome extension for Zillow to compare properties across multiple houses and integrated details into a database for streamlined analysis. Ensured optimal performance and usability by adhering to best development practices.`,
+    year: "2022 - 2024", // Removed Freelance and added Masters
+    position: "Master of Science in Computer Science",
+    companyName: "Southern Arkansas University",
+    details: ``, // details
   },
 ];
 
