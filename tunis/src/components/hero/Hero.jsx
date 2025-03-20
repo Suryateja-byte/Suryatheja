@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../assets/img/hero/dark.jpg"; // You can replace with a UI/UX-focused image
-import heroImgMobile from "../assets/img/hero/img-mobile.jpg"; //  You can replace with a UI/UX-focused image
-import cancelImg from "../assets/img/cancel.svg";
+import heroImg from "../../assets/img/hero/dark.jpg";
+import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
+import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: heroImg, // Keep the same or replace
-  heroMobileImage: heroImgMobile, // Keep the same or replace
+  heroImage: heroImg,
+  heroMobileImage: heroImgMobile,
   heroTitleName: "Surya Theja",
-  heroDesignation: "UI/UX Designer", // Changed from Android Developer
-  heroDescriptions: `I'm a passionate UI/UX Designer with 5+ years of experience crafting intuitive and user-centered digital experiences. I specialize in creating visually appealing interfaces that enhance user engagement and satisfaction.`, // Updated description
+  heroDesignation: "UI/UX Designer",
+  heroDescriptions: `I'm a passionate UI/UX Designer with 5+ years of experience crafting intuitive and user-centered digital experiences. I specialize in creating visually appealing interfaces that enhance user engagement and satisfaction.`,
   heroBtn: "more about me",
 };
 
