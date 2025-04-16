@@ -9,8 +9,8 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Surya Theja",
-  heroDesignation: "UI/UX Designer",
-  heroDescriptions: `I'm a passionate UI/UX Designer with 5+ years of experience crafting intuitive and user-centered digital experiences. I specialize in creating visually appealing interfaces that enhance user engagement and satisfaction.`,
+  heroDesignation: "Full Stack Developer",
+  heroDescriptions: `I'm a passionate Full Stack Developer with experience building responsive websites, dynamic web applications, and database-driven systems. I specialize in both front-end and back-end technologies to create efficient, user-friendly digital solutions.`,
   heroBtn: "more about me",
 };
 

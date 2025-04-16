@@ -7,71 +7,71 @@ import Image5 from "../../assets/img/portfolio/project-5.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "E-commerce", // Changed from mobile application
+    type: "E-commerce Platform",
     image: Image1,
-    tag: ["design", "e-commerce"], // Added design tag
+    tag: ["frontend", "responsive", "fullstack"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "E-commerce App Redesign", // More specific project name
-        client: "ATD (American Tire Distributors)",
-        language: "Figma, User Research, Prototyping", // Changed languages
+        project: "E-commerce Order Management System",
+        client: "Digi-Key Electronics",
+        language: "React, Node.js, Express, Bootstrap",
       },
     ],
   },
   {
     id: 2,
-    type: "Healthcare", // Changed from mobile application
+    type: "Responsive Website",
     image: Image2,
-    tag: ["design", "healthcare"], // Added design tag
+    tag: ["frontend", "responsive"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Healthcare Tracking App UX", // More specific
-        client: "Freelance",
-        language: "Figma, User Flows, Usability Testing", // Changed
+        project: "Bootstrap & Flexbox Responsive Portfolio",
+        client: "Personal Project",
+        language: "HTML5, CSS3, Bootstrap, Flexbox",
       },
     ],
   },
   {
     id: 3,
-    type: "Browser Extension", // Changed from browser extension
+    type: "API Development",
     image: Image3,
-    tag: ["development", "extension"],
+    tag: ["backend", "fullstack"],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Zillow Property Comparison", // No change
-        client: "Freelance",
-        language: "JavaScript, HTML, CSS, Chrome Extension APIs", // No change
+        project: "RESTful API Service",
+        client: "LTI Mindtree",
+        language: "Node.js, Express, MongoDB",
       },
     ],
   },
   {
     id: 4,
-    type: "Enterprise", // Changed from collaboration platform
+    type: "Data Dashboard",
     image: Image4,
-    tag: ["design", "collaboration"], // Added design
+    tag: ["frontend", "fullstack"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Enterprise Collaboration Platform", // No Change
-        client: "Movate (formerly CSS Corp)", // Changed Client name
-        language: "Figma, User Research, Design System", // Changed
+        project: "Interactive Analytics Dashboard",
+        client: "Digi-Key Electronics",
+        language: "React, JavaScript, Chart.js",
       },
     ],
   },
   {
     id: 5,
-    type: "Customer Support", // Changed from customer support portal
+    type: "Database Application",
     image: Image5,
-    tag: ["design", "portal"], // Added Design
+    tag: ["backend", "fullstack"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Customer Support Portal UI", // more specific
-        client: "Movate (formerly CSS Corp)", // Changed
-        language: "Figma, Prototyping, Visual Design", // Changed
+        project: "Inventory Management System",
+        client: "LTI Mindtree",
+        language: "Python, SQL, Django",
       },
     ],
   },

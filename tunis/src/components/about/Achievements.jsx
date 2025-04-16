@@ -1,19 +1,15 @@
 import React from "react";
-
 const achievementsContent = [
   {
-    title: "5+",
+    title: "3+",
     subTitle1: "years of",
-    subTitle2: "experience in UI/UX Design", // Changed from Android
+    subTitle2: "experience in Full Stack Development",
   },
-  { title: "10+", subTitle1: "successfully delivered", subTitle2: "projects" },
-  { title: "2+", // Changed from 3 to 2
-   subTitle1: "industries",
-   subTitle2: "served" }, //made subtitle singular
-  { title: "2", subTitle1: "degrees in", subTitle2: "Computer Science" },
-  { title: "45%", subTitle1: "increase in", subTitle2: "user satisfaction" }, //added new achievement
+  { title: "9+", subTitle1: "completed", subTitle2: "certifications" },
+  { title: "2+", subTitle1: "industries", subTitle2: "served" },
+  { title: "1", subTitle1: "bachelor's in", subTitle2: "Computer Science" },
+  { title: "30%", subTitle1: "reduction in", subTitle2: "page load time" },
 ];
-
 const Achievements = () => {
   return (
     <div className="row">
@@ -30,5 +26,4 @@ const Achievements = () => {
     </div>
   );
 };
-
 export default Achievements;

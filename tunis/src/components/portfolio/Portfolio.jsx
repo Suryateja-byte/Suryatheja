@@ -42,10 +42,10 @@ const Portfolio = () => {
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
             <Tab>ALL</Tab>
-            <Tab>LOGO</Tab>
-            <Tab>VIDEO</Tab>
-            <Tab>GRAPHIC DESIGN</Tab>
-            <Tab>MOCKUP</Tab>
+            <Tab>FRONTEND</Tab>
+            <Tab>BACKEND</Tab>
+            <Tab>FULL STACK</Tab>
+            <Tab>RESPONSIVE</Tab>
           </TabList>
 
           <div className="container">
@@ -55,25 +55,25 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {renderTabPanelContent("logo")}
+                {renderTabPanelContent("frontend")}
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="tab-container">
-                {renderTabPanelContent("video")}
+                {renderTabPanelContent("backend")}
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="tab-container">
-                {renderTabPanelContent("graphic design")}
+                {renderTabPanelContent("fullstack")}
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="tab-container">
-                {renderTabPanelContent("mockup")}
+                {renderTabPanelContent("responsive")}
               </div>
             </TabPanel>
           </div>

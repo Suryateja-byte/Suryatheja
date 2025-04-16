@@ -1,26 +1,24 @@
 import React from "react";
-
 const experienceContent = [
   {
-    year: "June 2024 - Present", // Changed to 2024
-    position: "Senior UI/UX Designer", // Changed position
-    companyName: "ATD (American Tire Distributor)",
-    details: `Redesigned e-commerce app interface, resulting in a 35% increase in user engagement and 28% higher conversion rates. Conducted comprehensive user research, identifying pain points and implementing solutions that improved user satisfaction scores by 45%. Developed and maintained a cohesive design system, ensuring visual consistency across all digital touchpoints. Collaborated with product managers and developers to deliver intuitive interfaces, reducing the user learning curve by 50%.`, // Updated details
+    year: "June 2022 - Present",
+    position: "Full Stack Developer",
+    companyName: "Digi-Key Electronics",
+    details: `Contributed to Digi-Key's flagship e-commerce platform, supporting millions of global users. Implemented responsive UI components using HTML5, CSS3, and Bootstrap. Developed scalable services using Node.js and Express. Refactored front-end components using modern JavaScript practices, reducing page load times by 30%. Collaborated with design, product, and business teams to deliver feature enhancements and bug fixes.`,
   },
   {
-    year: "May 2019 - May 2022", // Changed Month
-    position: "UI/UX Designer", // changed position
-    companyName: "CSS Corp (now Movate)", // Added now Movate
-    details: `Spearheaded the UX redesign of a B2B e-commerce platform, improving user task completion rates by 60%. Designed wireframes, mockups, and interactive prototypes to effectively communicate design concepts to stakeholders. Implemented user-centered design principles, reducing customer support inquiries by 40%. Created responsive designs, ensuring a seamless experience across desktop, tablet, and mobile devices.`, // Updated details
+    year: "June 2019 - June 2022",
+    position: "Junior Developer",
+    companyName: "LTI Mindtree",
+    details: `Contributed to front-end and back-end development of enterprise web applications. Built responsive UIs using HTML, CSS, and JavaScript following design specifications. Developed and maintained database schemas and SQL queries for data operations. Applied newly acquired skills in Python, JavaScript, and Node.js to solve real-world business problems.`,
   },
   {
-    year: "2022 - 2024", // Removed Freelance and added Masters
+    year: "2022 - 2024",
     position: "Master of Science in Computer Science",
     companyName: "Southern Arkansas University",
-    details: ``, // details
+    details: ``,
   },
 ];
-
 const Experience = () => {
   return (
     <ul>
@@ -40,5 +38,4 @@ const Experience = () => {
     </ul>
   );
 };
-
 export default Experience;

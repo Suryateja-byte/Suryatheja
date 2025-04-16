@@ -1,17 +1,15 @@
 import React from "react";
-
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Surya theja" },
+  { meta: "first name", metaInfo: "Surya Theja" },
   { meta: "last name", metaInfo: "Devera konda" },
   { meta: "Age", metaInfo: "25 Years" },
   { meta: "Nationality", metaInfo: "Indian" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Irving" },
-  { meta: "phone", metaInfo: "+1 8702309695" },
-  { meta: "Email", metaInfo: "suryatheja148@gmail.com" },
+  { meta: "Address", metaInfo: "Plano, TX" },
+  { meta: "phone", metaInfo: "+1 972-793-7007" },
+  { meta: "Email", metaInfo: "deverakondasuryatheja@gmail.com" },
   { meta: "langages", metaInfo: "English, Hindi, Telugu" },
 ];
-
 const PersonalInfo = () => {
   return (
     <ul className="about-list list-unstyled open-sans-font">
@@ -26,5 +24,4 @@ const PersonalInfo = () => {
     </ul>
   );
 };
-
 export default PersonalInfo;
